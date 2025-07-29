@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:mosparoform="http://typo3.org/ns/Denkwerk/MosparoForm/ViewHelpers"
+      xmlns:mosparopowermail="http://typo3.org/ns/Mahou/MosparoForm/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<div class="powermail_fieldwrap powermail_fieldwrap_type_recaptcha powermail_fieldwrap_{field.marker} {field.css} {settings.styles.framework.fieldAndLabelWrappingClasses}">
+    <f:variable name="mosparoConfiguration"
+                value="{mosparoform:mosparoConfiguration(selectedProject: field.txMosparopowermailSelectedProject)}"/>
+
+    <div class="{settings.styles.framework.fieldWrappingClasses}">
+        <div id="powermail_form_{ttContentUid}-powermail_field_{field.uid}"
+             class="mosparo-captcha"
+             data-form-id="powermail-form-{ttContentUid}"
+             data-captcha-server="{mosparoConfiguration.publicServer}"
+             data-captcha-uuid="{mosparoConfiguration.uuid}"
+             data-captcha-publickey="{mosparoConfiguration.publicKey}"
+        ></div>
+    </div>
+
+    <f:asset.script identifier="mosparo_form" src="EXT:mosparo_form/Resources/Public/JavaScript/Frontend/mosparo-form.js" useNonce="true" />
+    <f:asset.script identifier="mosparo-js" defer="true" src="{mosparoConfiguration.publicServer}/build/mosparo-frontend.js"/>
+</div>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="de" datatype="plaintext" original="messages" date="2025-07-08T20:49:23Z"
+          product-name="mosparo-powermail">
+        <header/>
+        <body>
+
+            <!-- tx_powermail_domain_model_field -->
+            <trans-unit id="tx_powermail_domain_model_field.palette.mosparoCaptcha.label">
+                <source>Mosparo project</source>
+            </trans-unit>
+            <trans-unit id="tx_powermail_domain_model_field.tx_mosparopowermail_selected_project.label">
+                <source>Project</source>
+            </trans-unit>
+
+
+        </body>
+    </file>
+</xliff>

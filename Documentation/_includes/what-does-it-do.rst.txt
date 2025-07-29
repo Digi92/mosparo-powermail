@@ -1,0 +1,9 @@
+The mosparo Powermail extension extends the core mosparo Form integration by adapting the spam protection system specifically for use with Powermail forms. It provides seamless integration of mosparo’s validation and captcha functionality within Powermail’s form framework, enabling effective spam prevention while maintaining Powermail’s native features and workflows.
+
+..  seealso::
+    For more information about mosparo, visit:
+    https://mosparo.io
+
+..  seealso::
+    For more information about mosparo_form, visit:
+    https://extensions.typo3.org/package/mosparo_form

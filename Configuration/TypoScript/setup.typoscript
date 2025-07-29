@@ -1,0 +1,27 @@
+plugin.tx_powermail {
+	view {
+		templateRootPaths {
+			30 = EXT:mosparo_powermail/Resources/Private/Frontend/Templates/Powermail/
+		}
+		partialRootPaths {
+			30 = EXT:mosparo_powermail/Resources/Private/Frontend/Partials/Powermail/
+		}
+	}
+	settings.setup {
+		spamshield.methods {
+			# Add mosparo spamcheck
+			30 {
+				_enable = 1
+
+				# Spamcheck name
+				name = mosparo
+
+				# Class
+				class = Mahou\MosparoPowermail\Validation\Validator\SpamShield\MosparoCaptchaMethod
+
+				# if this check failes - add this indication value to indicator (0 disables this check completely)
+				indication = 11
+			}
+		}
+	}
+}
