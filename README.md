@@ -23,10 +23,10 @@ It includes these features:
 
 ## FAQ
 
-Common questions (e.g., multi-step forms, configuration tips) can be found in the [FAQ section](https://docs.typo3.org/p/mahou/mosparo-powermail/main/en-us/FAQ.html) of the documentation.
+Common questions (e.g., multi-step forms, configuration tips) can be found in the [FAQ section](https://docs.typo3.org/p/mahou/mosparo-powermail/main/en-us/Faq.html) of the documentation.
 
 ## Contributing
 
 We welcome contributions! Feel free to open pull requests or issues on GitHub.
-See the [Contribution Guide](https://docs.typo3.org/p/mahou/mosparo-powermail/CONTRIBUTING.md).
+See the [Contribution Guide](https://github.com/Digi92/mosparo-powermail/blob/main/CONTRIBUTING.md).
 

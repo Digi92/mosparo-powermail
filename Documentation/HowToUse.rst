@@ -6,9 +6,9 @@
 How to use
 =============
 
-This section explains how to use the mosparo form field type a :doc:`Powermail form <in2code/powermail:ForEditors/AddNewForms#add-a-new-form>`.
+This section explains how to use the mosparo form field type a `Powermail form <https://docs.typo3.org/permalink/in2code-powermail:ForEditors/AddNewForms#add-a-new-form>`__.
 
-#. Create or edit a :doc:`form <in2code/powermail:ForEditors/AddNewForms#add-a-new-form>`.
+#. Create or edit a `form <https://docs.typo3.org/permalink/in2code-powermail:ForEditors/AddNewForms#add-a-new-form>`__.
 #. Add a new field and set its type to "mosparo".
 #. Set the title of the field to "mosparo"
 

@@ -9,8 +9,7 @@ mosparo enables you to define multiple independent projects, each with its own s
 Before these projects can be selected by editors in TYPO3, they need to be configured.
 
 ..  seealso::
-    | For more details on how to add additional projects, see the documentation of the base extension "mosparo-form":
-    | ToDo: Replace with final: https://docs.typo3.org/p/denkwerk/mosparo-form/main/en-us/Configuration/Add-additional-projects.html
+    | For more details on how to add additional projects, see the documentation of the base extension "mosparo-form": https://docs.typo3.org/p/denkwerk/mosparo-form/1.0/en-us/Configuration/Add-additional-projects.html
 
 ..  seealso::
     For more details on mosparo projects, see the official documentation:
