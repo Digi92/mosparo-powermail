@@ -35,5 +35,12 @@
         "typo3/cms": {
             "extension-key": "mosparo_powermail"
         }
+    },
+    "scripts": {
+        "prepare-release": [
+            "@extension-create-libs",
+            "rm -rf .github",
+            "rm .gitignore"
+        ]
     }
 }
