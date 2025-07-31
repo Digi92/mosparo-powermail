@@ -6,4 +6,4 @@ The mosparo Powermail extension extends the core mosparo Form integration by ada
 
 ..  seealso::
     For more information about mosparo_form, visit:
-    https://extensions.typo3.org/package/denkwerk/mosparo-form
+    https://extensions.typo3.org/extension/mosparo_form

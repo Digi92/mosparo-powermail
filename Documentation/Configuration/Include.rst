@@ -16,7 +16,7 @@ Include static TypoScript via site set (TYPO3 v13 and above)
 .. attention:: ToDo: Replace links to the extension doku
     | The "mosparo Powermail" extension depends on the base "mosparo Form" extension.
     | Make sure to complete the setup for mosparo Form as well.
-    | See: Integrate mosparo Form into your TYPO3 project <https://google.de>_
+    | See: `Integrate mosparo Form into your TYPO3 project <https://docs.typo3.org/p/denkwerk/mosparo-form/1.0/en-us/Installation.html#installation>`_
 
 This extension comes with a site set called `mahou/mosparo-powermail`. To use it include
 this set in your site configuration via
@@ -46,7 +46,7 @@ Include static TypoScript via TypoScript module
 .. attention:: ToDo: Replace links to the extension doku
     | The "mosparo Powermail" extension depends on the base "mosparo Form" extension.
     | Make sure to complete the setup for mosparo Form as well.
-    | See: Integrate mosparo Form into your TYPO3 project <https://google.de>_
+    | See: `Integrate mosparo Form into your TYPO3 project <https://docs.typo3.org/p/denkwerk/mosparo-form/1.0/en-us/Installation.html#installation>`_
 
 This extension comes with static TypoScript that should be included if it has not been set in the :ref:`site set <_include-site-set>`.
 

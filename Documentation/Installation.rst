@@ -43,7 +43,7 @@ See also `Installing extensions, TYPO3 Getting started <https://docs.typo3.org/p
 Install mosparo powermail in Classic Mode
 =========================================
 
-| Or download the extension from `https://extensions.typo3.org/package/mahou/mosparo-powermail <https://extensions.typo3.org/package/mahou/mosparo-powermail>`_ and install it in the Extension Manager.
-| The extension depends on the Extension `mosparo_form <https://extensions.typo3.org/package/denkwerk/mosparo-form>`_.
+| Or download the extension from `https://extensions.typo3.org/extension/mosparo_powermail <https://extensions.typo3.org/extension/mosparo_powermail>`_ and install it in the Extension Manager.
+| The extension depends on the Extension `mosparo_form <https://extensions.typo3.org/extension/mosparo_form>`_.
 | Make sure this extension is installed in your TYPO3 environment or otherwise available so the extension can function properly.
 
