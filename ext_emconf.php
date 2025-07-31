@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'mosparo integration for EXT:powermail',
