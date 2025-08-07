@@ -13,7 +13,7 @@ $EM_CONF[$_EXTKEY] = [
             'php' => '8.1.0-8.4.99',
             'typo3' => '12.4.0-13.4.99',
             'mosparo-form' => '1.0.0-1.99.99',
-            'powermail' => '12.5.0-12.99.99'
+            'powermail' => '12.5.0-13.99.99'
         ],
         'conflicts' => [],
         'suggests' => [],

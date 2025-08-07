@@ -24,7 +24,7 @@
         "typo3/cms-core": "^12.4 || ^13.4",
         "typo3/cms-form": "^12.4 || ^13.4",
         "denkwerk/mosparo-form": "^1.0",
-        "in2code/powermail": "^12.5"
+        "in2code/powermail": "^12.5 || ^13.0.2"
     },
     "autoload": {
         "psr-4": {
