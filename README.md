@@ -12,7 +12,7 @@ It includes these features:
 |--------------------|--------------------------------------------------------------|
 | **Repository:**    | https://github.com/Digi92/mosparo-powermail                  |
 | **Documentation:** | https://docs.typo3.org/p/mahou/mosparo-powermail/main/en-us/ |
-| **TER:**           | https://extensions.typo3.org/extension/mosparo_form          |
+| **TER:**           | https://extensions.typo3.org/extension/mosparo_powermail     |
 
 ## Compatibility
 
