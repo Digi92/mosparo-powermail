@@ -7,10 +7,10 @@ Render Powermail Form
 
 
 <f:section name="main">
-    <f:comment>
+    <f:comment><!--
         Copy from version 12.5.1
         Only added a dynamic form ID (powermail-form-{ttContentData.uid}) to the f:form-tag.
-    </f:comment>
+    --></f:comment>
 
     <f:alias map="{flashMessageClass:'powermail_message_error'}">
         <f:render partial="Misc/FlashMessages" arguments="{_all}"/>
@@ -55,5 +55,4 @@ Render Powermail Form
             <f:translate key="error_no_form"/>
         </f:else>
     </f:if>
-
 </f:section>
