@@ -12,7 +12,7 @@ Show Confirmation Page
 
 <f:section name="main">
     <f:comment>
-        Copy from version 12.5.1
+        Copy from version 13.2.0
         Only added a dynamic form ID (powermail-form-{ttContentData.uid}) to the f:form-tag.
     </f:comment>
 
@@ -21,7 +21,7 @@ Show Confirmation Page
 
 		<f:format.raw>{powermail_all}</f:format.raw>
 
-		<div class="btn-group" role="group">
+		<div class="powermail_fieldwrap powermail_tab_navigation">
 			<f:comment>
 				Link: Back to form
 			</f:comment>
@@ -46,7 +46,7 @@ Show Confirmation Page
 				Link: Submit form
 			</f:comment>
 			<f:form
-					action="checkCreate"
+					action="create"
 					section="c{ttContentData.uid}"
 					name="field"
 					enctype="multipart/form-data"
@@ -55,7 +55,7 @@ Show Confirmation Page
 					additionalAttributes="{vh:validation.enableJavascriptValidationAndAjax(form: mail.form)}">
 				<f:render section="HiddenFields" arguments="{_all}" />
 				<f:form.submit
-						value="{f:translate(key: 'confirmation_next')}"
+						value="{f:translate(key: 'confirmation_submit')}"
 						additionalAttributes="{data-powermail-form-ajax:'submit'}"
 						class="btn btn-primary" />
 			</f:form>

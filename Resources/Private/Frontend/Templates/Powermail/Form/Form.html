@@ -8,7 +8,7 @@ Render Powermail Form
 
 <f:section name="main">
     <f:comment>
-        Copy from version 12.5.1
+        Copy from version 13.2.0
         Only added a dynamic form ID (powermail-form-{ttContentData.uid}) to the f:form-tag.
     </f:comment>
 
@@ -21,14 +21,15 @@ Render Powermail Form
         <f:then>
             <div class="container-fluid">
                 <f:form
-                    id="powermail-form-{ttContentData.uid}"
-                    action="{action}"
-                    section="c{ttContentData.uid}"
-                    name="field"
-                    enctype="multipart/form-data"
-                    additionalAttributes="{vh:validation.enableJavascriptValidationAndAjax(form:form)}"
-                    addQueryString="{settings.misc.addQueryString}"
-                    class="powermail_form powermail_form_{form.uid} {form.css} {settings.styles.framework.formClasses} {vh:misc.morestepClass(activate:settings.main.moresteps)}">
+                        id="powermail-form-{ttContentData.uid}"
+                        action="{action}"
+                        section="c{ttContentData.uid}"
+                        name="field"
+                        enctype="multipart/form-data"
+                        autocomplete="{form.autocompleteToken}"
+                        additionalAttributes="{vh:validation.enableJavascriptValidationAndAjax(form:form)}"
+                        addQueryString="{settings.misc.addQueryString}"
+                        class="powermail_form powermail_form_{form.uid} {form.css} {settings.styles.framework.formClasses} {vh:misc.morestepClass(activate:settings.main.moresteps)}">
 
                     <f:if condition="{form.css} != 'nolabel'">
                         <h3>{form.title}</h3>
@@ -36,9 +37,9 @@ Render Powermail Form
                     <f:render partial="Misc/FormError" arguments="{_all}"/>
 
                     <f:if condition="{settings.main.moresteps}">
-                        <div class="btn-group">
+                        <div class="btn-group powermail_multistep_navigation" role="group" aria-label="Multistep form page">
                             <f:for each="{form.pages}" as="page" iteration="iterationPages">
-                                <button class="btn btn-default{f:if(condition:iterationPages.isFirst,then:' btn-primary')}" type="button" data-powermail-morestep-current="{iterationPages.index}" data-powermail-morestep-show="{iterationPages.index}">{page.title}</button>
+                                <button class="btn btn-secondary{f:if(condition:iterationPages.isFirst,then:' active')}" type="button" data-powermail-morestep-validate="{settings.validation.morestep.fieldset}" data-powermail-fieldset="{page.uid}" data-powermail-morestep-current="{iterationPages.index}" data-powermail-morestep-show="{iterationPages.index}">{page.title}</button>
                             </f:for>
                         </div>
                     </f:if>
