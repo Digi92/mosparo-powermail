@@ -7,13 +7,13 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'author' => 'Sascha Zander',
     'author_email' => 'sascha.zander@denkwerk.com',
-    'version' => '1.0.3',
+    'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'php' => '8.1.0-8.4.99',
-            'typo3' => '12.4.0-13.4.99',
+            'php' => '8.2.0-8.4.99',
+            'typo3' => '13.4.0-13.4.99',
             'mosparo-form' => '1.0.0-1.99.99',
-            'powermail' => '12.5.0-13.99.99'
+            'powermail' => '13.2.0-13.99.99'
         ],
         'conflicts' => [],
         'suggests' => [],

@@ -16,10 +16,11 @@ It includes these features:
 
 ## Compatibility
 
-| Version | TYPO3        | PHP       | mosparo | Supported Adapters                           |
-|---------|--------------|-----------|---------|----------------------------------------------|
-| 1.0.x   | 12.4         | 8.1 – 8.3 | ≥ 1.3.7 | Form, Extbase, Powermail, Custom Integration |
-| 1.0.3   | 12.4 – 13.4  | 8.1 – 8.3 | ≥ 1.3.7 | Form, Extbase, Powermail, Custom Integration |
+| Version | TYPO3 | PHP       | mosparo | Supported Adapters                           |
+|---------|-------|-----------|---------|----------------------------------------------|
+| 1.0.x   | 12.4  | 8.1 – 8.3 | ≥ 1.3.7 | Form, Extbase, Powermail, Custom Integration |
+| 1.0.3   | 12.4 – 13.4 | 8.1 – 8.3 | ≥ 1.3.7 | Form, Extbase, Powermail, Custom Integration |
+| 2.0.0   | 13.4  | 8.2 – 8.3 | ≥ 1.3.7 | Form, Extbase, Powermail, Custom Integration |
 
 
 ## FAQ
